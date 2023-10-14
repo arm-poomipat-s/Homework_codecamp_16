@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework2 Positon</title>
+    <style>
+        body {padding: 0; margin: 0; height: 200vh;}
+        .big {width: 50%; height: 50%;}
+        .small {width: 25%; height: 25%;}
+        .inside {width: 10%; height: 10%;}
+        .absulute {position: absolute;}
+        .relative {position: relative;}
+        .fixed {position: fixed;}
+        .top {top: 0;}
+        .left {left: 0;}
+        .right {right: 0;}
+        .bottom {bottom: 0;}
+        .center {left: 50%; top: 50%; transform: translate(-50%, -50%);}
+        .red {background-color: red;}
+        .green {background-color: green;}
+        .blue {background-color: blue;}
+        .yellow {background-color: yellow;}
+        .pink {background-color: deeppink;}
+        .white {background-color: white;}
+    </style>
+</head>
+<body>
+        <div class="red absulute small"></div>
+        <div class="green absulute small right"></div>
+        <div class="blue absulute small bottom"></div>
+        <div class="yellow absulute small bottom right"></div>
+        <div class="fixed big center">
+            <div class="fixed red inside"></div>
+            <div class="fixed green inside right"></div>
+            <div class="fixed blue inside bottom"></div>
+            <div class="fixed yellow inside bottom right"></div>
+            <div class="fixed pink inside center"></div>
+        </div>
+
+
+    
+
+</body>
+</html>
